@@ -1,3 +1,5 @@
+/* schematic: https://drive.google.com/a/nine.ch/file/d/0Bz49Vwfc_T-wejRrYzJRbTRQR1U/view?pli=1 */
+
 #include <LibAPRS.h>
 #include <string.h>
 #include "U8glib.h"
@@ -69,7 +71,7 @@ void setup() {
   APRS_init(ADC_REFERENCE, OPEN_SQUELCH);
 
   // You must at a minimum configure your callsign and SSID
-  APRS_setCallsign("LZ1PPL", 9);
+  APRS_setCallsign("HB9DQA", 7);
 
   // You can define preamble and tail like this:
   APRS_setPreamble(350);
